@@ -1,0 +1,17 @@
+.restaurant-list {
+    display: flex;
+    flex-wrap: wrap; /* 요소가 넘칠 경우 다음 줄로 이동하도록 설정 */
+    justify-content: space-between; /* 요소들을 간격을 두고 가로로 정렬 */
+    list-style: none;
+    padding: 0;
+  }
+  
+  .restaurant-item {
+    width: calc(33.33% - 10px); /* 각 아이템이 가로로 33.33% 차지하도록 설정 (간격도 고려) */
+    margin-bottom: 10px; /* 아이템 간 간격을 조절하려면 여기서 설정하세요 */
+    border: 2px solid black;
+    padding: 10px;
+    box-sizing: border-box; /* 요소의 크기에 padding, border를 포함하도록 설정 */
+    white-space: normal;
+  }
+  

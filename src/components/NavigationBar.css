@@ -1,0 +1,33 @@
+/* NavigationBar.css */
+
+/* 부모 컨테이너에 display: flex 적용 */
+.navbar-container {
+  display: flex;
+  justify-content: space-between; /* 자식 요소를 양 끝으로 정렬 */
+  align-items: center; /* 세로 중앙 정렬 */
+  padding: 10px; /* 원하는 여백 설정 */
+}
+
+.navbar-list {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-list li {
+  margin-right: 10px;
+}
+
+.navbar-list li:last-child {
+  margin-right: 0;
+}
+
+.navbar-list li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* 스타일이 적용될 NavigationBar 컴포넌트에 클래스 추가 */
